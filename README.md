@@ -95,3 +95,4 @@ plt.show()
 
 Thus, the program to to analyze given data using co-efficient of correlation and regression line has been done successfully.
 
+https://github.com/vkarthi-20/Correlation_Regression.git
