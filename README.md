@@ -8,7 +8,7 @@ To analyse given data using coeffificient of correlation and regression line
 # Software required :  
  
 Python
-
+ 
 # Theory:
 
 Correlation describes the strength of an association between two variables, and is completely symmetrical, the correlation between A and B is the same as the correlation between B and A. However, if the two variables are related it means that when one changes by a certain amount the other changes on an average by a certain amount.  
