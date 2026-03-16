@@ -1,14 +1,11 @@
 # Correlation and regression for data analysis
 # Aim : 
-
 To analyse given data using coeffificient of correlation and regression line
 ![image](https://user-images.githubusercontent.com/104613195/168224136-d6b64e64-7d3d-4775-9337-c8f96fe41f2d.png)
 
-
 # Software required :  
- 
 Python
- 
+
 # Theory:
 
 Correlation describes the strength of an association between two variables, and is completely symmetrical, the correlation between A and B is the same as the correlation between B and A. However, if the two variables are related it means that when one changes by a certain amount the other changes on an average by a certain amount.  
@@ -28,29 +25,22 @@ Reg no: 212225230130
 import numpy as np
 import math
 import matplotlib.pyplot as plt
-
-
 x=[int(i) for i in input("Enter x values with space seperated:").split()]
 y=[int(i) for i in input("Enter y values with space seperated:").split()]
-
 if len(x) != len(y):
   raise SystemExit("Length of x and y should be same")
-
 N=len(x)
-
 Sum_x=0
 Sum_y=0
 Sum_xy=0
 Sum_x2=0
 Sum_y2=0
-
 for i in range(N):
   Sum_x+=x[i]
   Sum_y+=y[i]
   Sum_xy+=x[i]*y[i]
   Sum_x2+=x[i]*x[i]
   Sum_y2+=y[i]*y[i]
-
 den=math.sqrt((N*Sum_x2-Sum_x**2)*(N*Sum_y2-Sum_y**2))
 if den==0:
   raise SystemExit("Denominator is zero")
@@ -84,8 +74,6 @@ plt.grid()
 plt.show()
 
 ```
-
-
 
 # Output:
 
